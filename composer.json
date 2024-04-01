@@ -1,0 +1,24 @@
+{
+    "name": "blocksframework/filestorage",
+    "description": "A set of classes used for storing files in the cloud and other remote servers",
+    "license": "MIT",
+    "keywords": [
+        "blocks",
+        "PHP framework",
+        "file storage"
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Blocks\\Filestorage\\":"src/class"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stephen Stephenson",
+            "email": "stephenson.inbox@gmail.com"
+        }
+    ]
+}
